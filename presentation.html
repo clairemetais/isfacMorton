@@ -16,77 +16,73 @@
         <div class="imgbgheader">
             <div class="container">
                 <div classe="taillelogo">
-                    <img src="img\logo-gite.png" alt="Logo" class="logo" />
+                    <a href="index.html" title="page d'accueil"><img src="img\logo-gite.png" alt="Logo" class="logo" /></a>
                 </div>
             </div>
         </div>
-        <nav class="nav-color">
+        <nav class="nav-color flexbox">
             <div class="container">
-                <menu class="nopadding">
-                    <ul class="nopuces alignement nopadding">
-                        <li class="paddingli">Accueil</li>
-                        <li class="paddingli">Le Domaine</li>
-                        <li class="paddingli">Galerie</li>
-                        <li class="paddingli">Contact</li>
-                    </ul>
+                <menu class="nopuces alignement titlecenter ">
+                    <li class="paddingli"><a href="index.html" title="Page d'accueil" class="white">Accueil</a></li>
+                    <li class="paddingli"><a href="presentation.html" title="Presentation" class="white">Le Domaine</a></li>
+                    <li class="paddingli"><a href="galerie.html" title="Photos" class="white">Galerie</a></li>
+                    <li class="paddingli"><a href="contact.html" title="Nous contacter" class="white">Contact</a></li>
                 </menu>
                 <div class="reseauxsociaux">
-                    <a href="https://www.facebook.com/groups/html5.web" title="facebook" class="white paddingR"><i
+                    <a href="#" title="facebook" class="white paddingR"><i
                             class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/html5?lang=fr" title="twitter" class="white paddingR"><i
+                    <a href="#" title="twitter" class="white paddingR"><i
                             class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/watch?v=ieSegwJBIlw" title="youtube" class="white paddingR"><i
+                    <a href="#" title="youtube" class="white paddingR"><i
                             class="fa-brands fa-youtube"></i></a>
-                    <a href="https://www.pinterest.fr/cvander/html5/" title="pinterest" class="white paddingR"><i
+                    <a href="#" title="pinterest" class="white paddingR"><i
                             class="fa-brands fa-pinterest"></i></a>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <div class="aside-title"><h3>Le Domaine</h3></div>
+        <div class="aside-title flexbox">
+            <h1 class="container titlecenter">Le Domaine</h1>
+        </div>
         <div class="container">               
-            
-            <nav>
-                
-                <ul>
-                    <li>Le Gîte</li>
-                    <li>Le Jardin</li>
-                    <li>Le Potager</li>
-                </ul>
-            </nav>
-            <section>
+            <section class="bordertop paddingsection">
+                <div class=" margbottom height ">
+                    <a href="#legite"class="button bold">Le Gîte</a>
+                    <a href="#jardin"class="button bold">Le Jardin</a>
+                    <a href="#lepotager"class="button bold">Le Potager</a>   
+                </div>
                 <div>
-                    <h3>Le Gîte :</h3>
+                    <h3 id="legite">Le Gîte :</h3>
                     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> 
                     <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
                     <p> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
                     </p>
-                    <div class="grid3col">
+                    <div class="grid3col margbottom">
                         <img src="img\gite-1.jpg" alt="gite-1"class="widthimage" />
                         <img src="img\gite-2.jpg" alt="gite-2" class="widthimage"/>
                         <img src="img\gite-3.jpg" alt="gite-2"class="widthimage" />
                     </div>
                 </div>
                 <div>
-                    <h3>Le Jardin :</h3>
+                    <h3 id="jardin">Le Jardin :</h3>
                     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> 
                     <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
                     <p> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
                     </p>
-                    <div class="grid3col">
+                    <div class="grid3col margbottom">
                         <div><img src="img\jardin-1.jpg" alt="pause gourmande" class="widthimage" /></div>
                         <div><img src="img\jardin-2.jpg" alt="chemin et tulipe rouge"class="widthimage"  /></div>
                         <div><img src="img\jardin-3.jpg" alt="fleurs des champs" class="widthimage" /></div>
                     </div>
                 </div>
                 <div>
-                    <h3>Le Potager :</h3>
+                    <h3 id="lepotager">Le Potager :</h3>
                     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> 
                     <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
                     <p> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
                     </p>
-                    <div class="grid3col">
+                    <div class="grid3col margbottom">
                         <img src="img\potager-1.jpg" alt="choux et oeillet-dinde"class="widthimage" />
                         <img src="img\potager-2.jpg" alt="salades" class="widthimage"/>
                         <img src="img\potager-3.jpg" alt="groseilles"class="widthimage" />
@@ -94,51 +90,47 @@
                 </div>
             </section>
             <aside>
-                <img src="img\img-home.jpg" alt="Gite bleu" class="widthimage bordure" />
+                <a href="#" title="Gite bleu" ><img src="img\img-home.jpg" class="widthimage bordure"></a>
                 <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                    erat, sed diam voluptua.
-                </p>
-                <img src="img\img-vegetables.jpg" alt="legumes de saison" class="widthimage bordure" />
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <a href="#" title="legumes de saison" ><img src="img\img-vegetables.jpg" class="widthimage bordure"></a>
                 <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                    erat, sed diam voluptua.
-                </p>
-                <img src="img\img-chicken.jpg" alt="volailles de la ferme" class="widthimage bordure" />
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <a href="#" title="volailles de la ferme"><img src="img\img-chicken.jpg"  class="widthimage bordure"></a>
                 <h3>Lorem ipsum dolor sit amet</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                    erat, sed diam voluptua.
-                </p>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.</p>
             </aside>
         </div>
     </main>
     <footer>
-        <img src="img\bg-home.jpg" alt="Legumes du jardin" />
-        <div class="map"></div>
-        <menu>
-            <h1>Informations :</h1>
-            <ul>
-                <li>Plan du site</li>
-                <li>CGU</li>
-                <li>Politique de confidentialité</li>
-                <li>Mentions légales</li>
-            </ul>
-        </menu>
-        <nav>
-            <h3>Menu :</h3>
-            <ul>
-                <li>Accueil</li>
-                <li>Le Domaine</li>
-                <li>Galerie</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+        <div class="imgbghome "></div>
+        <div id="map" class="border"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d724619.3000488811!2d3.224596930874066!3d44.81047813166928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b4d646459ecd55%3A0x3093cafcbe325e0!2zQXJkw6hjaGU!5e0!3m2!1sfr!2sfr!4v1667854736934!5m2!1sfr!2sfr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="bgfooter">
+            <div class="container">
+                <div class="imgfooter">
+                    <nav class="container white">
+                        <ul class="marginright bold">
+                            <h3 class="bold ">Informations : </h3>
+                            <li class="fsizes " ><a href="#menu" title="menu" class="white">Plan du site</a></li>
+                            <li class="fsizes "><a href="#" title="CGU" class="white">CGU</a></li>
+                            <li class="fsizes "><a href="#" title="politique de confidentialité" class="white">Politique de confidentialité</a></li>
+                            <li class="fsizes "><a href="#" title="mentions légales" class="white">Mentions légales</a></li>
+                        </ul>
+                        <ul class="bold" >
+                            <h3 id="menu" class="bold">Menu : </h3>
+                            <li class="fsizes "><a href="index.html" title="Page d'accueil" class="white">Accueil</a></li>
+                            <li class="fsizes "><a href="presentation.html" title="Le Domaine" class="white">Le Domaine</a></li>
+                            <li class="fsizes "><a href="galerie.html" title="Galerie" class="white">Galerie</a></li>
+                            <li class="fsizes "><a href="contact.html" title="Contact" class="white">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
